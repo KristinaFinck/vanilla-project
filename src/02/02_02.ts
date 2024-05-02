@@ -12,7 +12,7 @@ export type GovernmentBuildingType = {
 }
 export type HouseType = {
     buildedAt: number
-    repaired: number
+    repaired: boolean
     address: AddressType
 }
 export type AddressType = {

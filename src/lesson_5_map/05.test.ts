@@ -1,4 +1,6 @@
 import {ManType} from "./05";
+import {getStreetsTitlesOfGovernmentBuildings} from "./05_02";
+
 
 let people: Array<ManType> = [];
 
@@ -18,3 +20,5 @@ test('should get array of greeting messages', () => {
     expect(message[1]).toBe('Hello Alexander. Welcome to IT');
     expect(message[2]).toBe('Hello Dmitry. Welcome to IT');
 })
+
+// тесты про улицы
